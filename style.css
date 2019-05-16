@@ -1,49 +1,82 @@
-/*!
- * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
- */
+
+
 body {
   padding-top: 56px;
+  background-color: #D5D2C1;
 }
 
 .barrappal {
-
-  background-color: #8B4513;
-
+  background-color: rgba(119, 73, 12, 0.836);
+  color: khaki;
 }
 
 .logokolitas {
-
   width: 64px;
   height: 64px;
 }
 
-.nav-link {
-
-  color: white;
-
+a.nav-link {
+  color: khaki;
 }
-.btnlogin{
 
+.nav-link:hover {
+  color: white;
+  font: verdana;
+}
+
+.btnlogin {
   width: 8px;
   background-color;
-
 }
 
 .fa-home {
-
-background-color;
-
+  background-color;
 }
 
 .dog-banner {
-
-  width: 900px;
+  width: 1080px;
   height: 350px;
 }
 
-.footerkolitas{
+.footerkolitas {
+  background-color: rgba(119, 73, 12, 0.836);
+}
 
-  background-color: #8B4513;
+.login-form {
+  background-color: rgba(119, 73, 12, );
+}
+
+.carrusel {
+  border-radius: 7px;
+}
+
+.filters {
+  margin: 10px;
+}
+
+.search-slt{
+  border-radius: 20px 20px 0px 0px;
+}
+
+
+.dropdown-toggle {
+  height: 38px;
+  color: khaki;
+}
+
+.haircolor {
+  font-style: fa5-proxima-nova
+}
+.btn-search {
+
+  background-color:rgba(119, 73, 12, 0.836);
+  color: khaki;
+  border-radius: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.desplegable {
+
+  border-radius: 45px;
 }
