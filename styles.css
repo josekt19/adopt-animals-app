@@ -5,11 +5,16 @@ body {
   background-color: #D5D2C1;
 }
 
-.barrappal{
-  background-color: rgba(119, 73, 12, 0.836);
+ .barrappal .navbar-nav .nav-link {
+
+  
   color: khaki;
 }
+.barrappal {
 
+  background-color: rgba(119, 73, 12, 0.836);
+  
+}
 .logokolitas {
   width: 64px;
   height: 64px;
