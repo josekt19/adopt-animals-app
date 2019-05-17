@@ -5,7 +5,7 @@ body {
   background-color: #D5D2C1;
 }
 
-.barrappal {
+.barrappal{
   background-color: rgba(119, 73, 12, 0.836);
   color: khaki;
 }
@@ -19,6 +19,12 @@ a.nav-link {
   color: khaki;
 }
 
+.nav-item{
+
+  color: khaki;
+
+}
+
 .nav-link:hover {
   color: white;
   font: verdana;
@@ -26,12 +32,10 @@ a.nav-link {
 
 .btnlogin {
   width: 8px;
-  background-color;
+  
 }
 
-.fa-home {
-  background-color;
-}
+
 
 .dog-banner {
   width: 1080px;
@@ -80,3 +84,4 @@ a.nav-link {
 
   border-radius: 45px;
 }
+
