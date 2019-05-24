@@ -40,8 +40,6 @@ a.nav-link {
   
 }
 
-
-
 .dog-banner {
   width: 1080px;
   height: 350px;
@@ -83,7 +81,8 @@ a.nav-link {
   border-radius: 40px;
   text-align: center;
   position: relative;
-  active: color brown
+  active: color brown;
+  border: solid chocolate;
 }
 
 .desplegable {
@@ -92,11 +91,15 @@ a.nav-link {
 }
 
 
-.registro {
+.Registro {
 
   border: solid 2px;
   color: rgba(119, 73, 12, 0.836);
   border-radius: 8px;
+  text-align: center;
+	
+	font-weight: 400;
+
 }
 
 .form-control {
@@ -112,3 +115,40 @@ a.nav-link {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: .25rem;
+}
+
+  .container-form {
+
+
+    border: solid black;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+ 
+h2{
+
+  text-align: center;
+}	
+
+.btn-search:hover {
+
+  background-color:rgba(119, 73, 12, 0.836);
+  color: khaki;
+  border-radius: 40px;
+  text-align: center;
+  position: relative;
+  active: color brown;
+  box-shadow: khaki
+}
+  .btn-search:focus {
+
+    background-color:rgba(119, 73, 12, 0.836);
+    color: khaki;
+    border-radius: 40px;
+    text-align: center;
+    position: relative;
+    active: color brown;
+    box-shadow: khaki;
+  }
