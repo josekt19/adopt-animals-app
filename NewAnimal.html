@@ -33,10 +33,10 @@
   <!-- Barra Nav -->
   <title>KolitasUy!</title>
 
-  <nav class="navbar navbar-expand-lg navbar fixed-top barrappal">
-    <a class="navbar-brand" href="#">
-      <img src="Assets\KolitasVector.png" class="logokolitas" alt="KolitasLogo">
-    </a>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top barrappal">
+      <a class="navbar-brand" href="#">
+        <img src="Assets/KolitasVector.png" class="logokolitas" alt="KolitasLogo">
+      </a>
 
 
     </button>
@@ -53,24 +53,24 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="catalog.html">Catalogo</a>
+          <a class="nav-link" href="List.html">Catalogo</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="List.html">Lista</a>
+          <a class="nav-link" href="animal.html">Ficha</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="registry.html">Registro</a>
+          <a class="nav-link " href="NewAnimal.html">Registro</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="">Blog</a>
         </li>
       </ul>
-      <div class="btn-group dropleft">
-        <button type="button" class="btn btn-secundary btn-sm dropdown-toggle " data-toggle="dropdown"
+      <div class="btn-group dropdown">
+        <button type="button" class="btn btn-secundary btn-sm dropdown-toggle " data-toggle="dropdown" data-display="static"
           aria-haspopup="true" aria-expanded="false">
           <i class="fas fa-user"></i>
         </button>
-        <div class="dropdown-menu">
+        <div class="dropdown-menu" data-display="static" >
           <form class="px-4 py-3">
             <div class="form-group">
               <label for="exampleDropdownFormEmail1">Email address</label>
@@ -115,44 +115,84 @@
         <label for="name">Nombre de animal</label>
         <input type="text" class="form-control" id="animalname" placeholder="Opcional">
       </div>
+    
+    <div class="form-group col-md-6">
+      <label for="inputAddress">Barrio</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Ingrese direccion">
     </div>
-    <div class="form-group">
-      <label for="inputAddress">Address</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    <div class="form-group col-md-6">
+      <label for="inputAddress2">Raza</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Raza">
     </div>
-    <div class="form-group">
-      <label for="inputAddress2">Address 2</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-    </div>
+  </div>
     <div class="form-row">
       <div class="form-group col-md-6">
-        <label for="inputCity">City</label>
-        <input type="text" class="form-control" id="inputCity">
+        <label for="inputCity">Edad</label>
+        <input type="text" class="form-control" id="inputCity" placeholder="Edad">
       </div>
       <div class="form-group col-md-4">
-        <label for="inputState">State</label>
-        <select id="inputState" class="form-control">
-          <option selected>Choose...</option>
-          <option>...</option>
+        <label for="inputState">Sexo</label>
+        <select id="inputState" class="form-control" placeholder="ingrese color de pelo y ojos">
+          <option selected>Macho</option>
+          <option>Hembra</option>
         </select>
       </div>
       <div class="form-group col-md-2">
-        <label for="inputZip">Zip</label>
+        <label for="inputZip">Color de Pelo y ojos</label>
         <input type="text" class="form-control" id="inputZip">
       </div>
-    </div>
+    
+    <div class="form-group col-md-12">
+    <label for="inputZip">Descripcion</label>
+    <textarea class="form-control" aria-label="With textarea"></textarea>
+  </div>
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroupFileAddon01">Cargar imagen</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+  </div>
+</div>
+<section>
+  <br>
+  <h2>Datos de contacto</h2></section>
+  <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="animaltype">Nombre</label>
+          <input type="email" class="form-control" id="animaltype" placeholder="Nombre de propietario">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="animaltype">telefono de contacto</label>
+              <input type="email" class="form-control" id="animaltype" placeholder="ingrese telefono de contacto">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="animaltype">E-mail</label>
+                  <input type="email" class="form-control" id="animaltype" placeholder="escriba email">
+                </div>
+
     <div class="form-group">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="gridCheck">
         <label class="form-check-label" for="gridCheck">
-          Check me out
+          confirmo que la informacion ingresada es verdadera
         </label>
       </div>
     </div>
+  </div>
+  <br>
     <button type="submit" class="btn btn-primary btn-lg btn-block btn-search">Registrar nueva adopcion</button>
   </form>
   <br>
-  <br>
-  <br>
+  
 </div>
+
+<br>
+  <br>
+  <br>
   </body>

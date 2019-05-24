@@ -102,6 +102,12 @@ a.nav-link {
 
 }
 
+@media only screen and (max-width: 992px)
+{
+
+
+}
+
 .form-control {
   display: block;
   width: 100%;
@@ -130,6 +136,7 @@ a.nav-link {
 h2{
 
   text-align: center;
+  color: black
 }	
 
 .btn-search:hover {
@@ -151,4 +158,14 @@ h2{
     position: relative;
     active: color brown;
     box-shadow: khaki;
+  }
+
+  label {
+
+    color: black
+  }
+
+  section {
+
+    border-top: 1px solid rgba(119, 73, 12, 0.836);
   }
