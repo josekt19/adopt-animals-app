@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -22,7 +23,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
+  <link href="https://fonts.googleapis.com/css?family=Muli|Quicksand&display=swap" rel="stylesheet">
   </body>
 
   <title>KolitasUy!</title>
@@ -34,9 +35,9 @@
   <title>KolitasUy!</title>
 
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top barrappal">
-      <a class="navbar-brand" href="#">
-        <img src="Assets/KolitasVector.png" class="logokolitas" alt="KolitasLogo">
-      </a>
+    <a class="navbar-brand" href="#">
+      <img src="Assets/KolitasVector.png" class="logokolitas" alt="KolitasLogo">
+    </a>
 
 
     </button>
@@ -56,7 +57,7 @@
           <a class="nav-link" href="List.html">Catalogo</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="animal.html">Ficha</a>
+          <a class="nav-link" href="animal.html">Ficha <i class="fas fa-paw"></i></a>
         </li>
         <li class="nav-item">
           <a class="nav-link " href="NewAnimal.html">Registro</a>
@@ -66,65 +67,45 @@
         </li>
       </ul>
       <div class="btn-group dropdown">
-        <button type="button" class="btn btn-secundary btn-sm dropdown-toggle " data-toggle="dropdown" data-display="static"
-          aria-haspopup="true" aria-expanded="false">
+        <button type="button" class="btn btn-secundary btn-sm dropdown-toggle nav-link" data-toggle="dropdown"
+          data-display="static" aria-haspopup="true" aria-expanded="false">
           <i class="fas fa-user"></i>
         </button>
-        <div class="dropdown-menu" data-display="static" >
-          <form class="px-4 py-3">
-            <div class="form-group">
-              <label for="exampleDropdownFormEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
-            </div>
-            <div class="form-group">
-              <label for="exampleDropdownFormPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
-            </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="dropdownCheck">
-              <label class="form-check-label" for="dropdownCheck">
-                Remember me
-              </label>
-            </div>
-            <button type="submit" class="btn btn-primary">Sign in</button>
-          </form>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">New around here? Sign up</a>
-          <a class="dropdown-item" href="#">Forgot password?</a>
-        </div>
+
 
   </nav>
 </header>
+<!--Fin Barra Nav-->
 
 <br>
 <br>
-
+<h2>Registro de nuevo animal</h2>
 <div class="container Registro">
 
   <br>
   <br>
-  <h2>Registro de nuevo animal</h2>
+  <h2>Datos de mascota</h2>
   <br>
-<form>
+  <form>
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="animaltype">Tipo de animal</label>
-        <input type="email" class="form-control" id="animaltype" placeholder="Tipo de animal">
+        <input type="text" class="form-control" id="animaltype" placeholder="Tipo de animal">
       </div>
       <div class="form-group col-md-6">
         <label for="name">Nombre de animal</label>
         <input type="text" class="form-control" id="animalname" placeholder="Opcional">
       </div>
-    
-    <div class="form-group col-md-6">
-      <label for="inputAddress">Barrio</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="Ingrese direccion">
+
+      <div class="form-group col-md-6">
+        <label for="inputAddress">Barrio</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Ingrese direccion">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputAddress2">Raza</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Raza">
+      </div>
     </div>
-    <div class="form-group col-md-6">
-      <label for="inputAddress2">Raza</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Raza">
-    </div>
-  </div>
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="inputCity">Edad</label>
@@ -133,7 +114,8 @@
       <div class="form-group col-md-4">
         <label for="inputState">Sexo</label>
         <select id="inputState" class="form-control" placeholder="ingrese color de pelo y ojos">
-          <option selected>Macho</option>
+          <option selected disabled>Seleccione Sexo</option>
+          <option>Macho</option>
           <option>Hembra</option>
         </select>
       </div>
@@ -141,58 +123,67 @@
         <label for="inputZip">Color de Pelo y ojos</label>
         <input type="text" class="form-control" id="inputZip">
       </div>
-    
-    <div class="form-group col-md-12">
-    <label for="inputZip">Descripcion</label>
-    <textarea class="form-control" aria-label="With textarea"></textarea>
-  </div>
-</div>
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <span class="input-group-text" id="inputGroupFileAddon01">Cargar imagen</span>
-  </div>
-  <div class="custom-file">
-    <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
-    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
-  </div>
-</div>
-<section>
-  <br>
-  <h2>Datos de contacto</h2></section>
-  <form>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="animaltype">Nombre</label>
-          <input type="email" class="form-control" id="animaltype" placeholder="Nombre de propietario">
-        </div>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="animaltype">telefono de contacto</label>
-              <input type="email" class="form-control" id="animaltype" placeholder="ingrese telefono de contacto">
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="animaltype">E-mail</label>
-                  <input type="email" class="form-control" id="animaltype" placeholder="escriba email">
-                </div>
 
-    <div class="form-group">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-          confirmo que la informacion ingresada es verdadera
-        </label>
+      <div class="form-group col-md-12">
+        <label for="inputZip">Descripcion</label>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
       </div>
     </div>
-  </div>
-  <br>
-    <button type="submit" class="btn btn-primary btn-lg btn-block btn-search">Registrar nueva adopcion</button>
-  </form>
-  <br>
-  
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroupFileAddon01">Cargar imagen</span>
+      </div>
+      <div class="custom-file">
+        <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+      </div>
+    </div>
+    <section class="contacto">
+      <br>
+      <h2>Datos de contacto</h2>
+    </section>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="animaltype">Nombre y apellido</label>
+          <input type="email" class="form-control" id="animaltype" placeholder="Nombre de contacto">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="name">Telefono de contacto</label>
+          <input type="tel" class="form-control" id="animalname" placeholder="ingrese Telefono"
+            pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required>
+          <span class="note">Formato: 09x-123-456</span>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="name">Email</label>
+          <input type="Email" class="form-control" id="animalname" placeholder="Email">
+        </div>
+
+
+
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary btn-lg btn-block btn-search">Registrar nueva adopcion</button>
+    </form>
+    <br>
+
 </div>
 
 <br>
-  <br>
-  <br>
+<br>
+<br>
+</div>
+</div>
+</div>
+</div>
+<footer class="py-5 footerkolitas">
+    <div class="container">
+      <p class="m-0 text-center nav-item">Copyright &copy; Derechos registrados, creador Jose Kulzi </p>
+    </div>
+  </footer>
+  
+  
+  
   </body>
+  
+  </html>

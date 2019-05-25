@@ -1,20 +1,18 @@
-
-
 body {
   padding-top: 56px;
   background-color: #D5D2C1;
+  font-family: 'Muli', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
- .barrappal .navbar-nav .nav-link {
-
-  
+.barrappal .navbar-nav .nav-link {
   color: khaki;
 }
-.barrappal {
 
+.barrappal {
   background-color: rgba(119, 73, 12, 0.836);
-  
 }
+
 .logokolitas {
   width: 64px;
   height: 64px;
@@ -24,25 +22,26 @@ a.nav-link {
   color: khaki;
 }
 
-.nav-item{
-
+.nav-item {
   color: khaki;
-
 }
 
 .nav-link:hover {
-  color: white;
-  font: verdana;
+  color: rgba(255,255,255,.75);
+  
+}
+
+.nav-link:focus {
+  box-shadow: none;
 }
 
 .btnlogin {
   width: 8px;
-  
 }
 
 .dog-banner {
   width: 1080px;
-  height: 350px;
+  height: 480px;
 }
 
 .footerkolitas {
@@ -61,10 +60,9 @@ a.nav-link {
   margin: 10px;
 }
 
-.search-slt{
+.search-slt {
   border-radius: 20px 20px 0px 0px;
 }
-
 
 .dropdown-toggle {
   height: 38px;
@@ -74,38 +72,36 @@ a.nav-link {
 .haircolor {
   font-style: fa5-proxima-nova
 }
-.btn-search {
 
-  background-color:rgba(119, 73, 12, 0.836);
+.btn-search {
+  background-color: rgba(119, 73, 12, 0.836);
   color: khaki;
   border-radius: 40px;
   text-align: center;
   position: relative;
-  active: color brown;
+  
   border: solid chocolate;
 }
 
 .desplegable {
-
   border-radius: 45px;
 }
 
-
 .Registro {
-
   border: solid 2px;
   color: rgba(119, 73, 12, 0.836);
   border-radius: 8px;
   text-align: center;
-	
-	font-weight: 400;
-
+  font-weight: 400;
 }
 
-@media only screen and (max-width: 992px)
-{
+@media only screen and (max-width: 992px) {}
 
-
+.form-control:focus {
+  border-color: rgba(119, 73, 12, 0.836);
+  box-shadow: 0 0 0 0.2rem rgba(119, 73, 12, 0.836);
+  background-color: rgb(131, 86, 54);
+  color: khaki;
 }
 
 .form-control {
@@ -123,49 +119,77 @@ a.nav-link {
   border-radius: .25rem;
 }
 
-  .container-form {
+.container-form {
+  border: solid black;
+  align-items: center;
+  justify-content: center;
+}
 
-
-    border: solid black;
-    align-items: center;
-    justify-content: center;
-  }
-
-
- 
-h2{
-
+h2 {
   text-align: center;
   color: black
-}	
+}
+h1 {
+  text-align: center;
+  color: black;
+}
 
 .btn-search:hover {
-
-  background-color:rgba(119, 73, 12, 0.836);
+  background-color: rgba(119, 73, 12, 0.836);
   color: khaki;
   border-radius: 40px;
   text-align: center;
   position: relative;
-  active: color brown;
+  
   box-shadow: khaki
 }
-  .btn-search:focus {
 
-    background-color:rgba(119, 73, 12, 0.836);
-    color: khaki;
-    border-radius: 40px;
-    text-align: center;
-    position: relative;
-    active: color brown;
-    box-shadow: khaki;
-  }
+.btn-search:focus {
+  background-color: rgba(119, 73, 12, 0.836);
+  color: khaki;
+  border-radius: 40px;
+  text-align: center;
+  position: relative;
+  
+  box-shadow: khaki;
+}
 
-  label {
+label {
+  color: black
+}
 
-    color: black
-  }
+.contacto {
+  border-top: 1px solid rgba(119, 73, 12, 0.836);
+}
 
-  section {
+a.cardname{
 
-    border-top: 1px solid rgba(119, 73, 12, 0.836);
+  color: black
+}
+
+.foto  {
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+ 
+}
+
+.fichamascota{
+
+  height: 360px;
+}
+.ficha{
+  padding-top: 20px;
+}
+
+.card{
+  border-radius: 20px;
+}
+.ficha2{
+
+  text-align: center
+}
+
+ul{
+  list-style:none;
   }
