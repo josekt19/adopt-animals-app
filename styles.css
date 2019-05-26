@@ -17,6 +17,11 @@ body {
   width: 64px;
   height: 64px;
 }
+.card-img-top{
+  height: 253px;
+}
+
+
 
 a.nav-link {
   color: khaki;
@@ -80,7 +85,10 @@ a.nav-link {
   text-align: center;
   position: relative;
   
-  border: solid chocolate;
+  
+}
+li>h4{
+  text-decoration: underline black;
 }
 
 .desplegable {
@@ -88,14 +96,33 @@ a.nav-link {
 }
 
 .Registro {
-  border: solid 2px;
-  color: rgba(119, 73, 12, 0.836);
-  border-radius: 8px;
+  border: solid 2px rgb(131, 86, 54);
+  border-radius: 20px 20px 60px 60px;
   text-align: center;
   font-weight: 400;
+  color: black;
 }
 
-@media only screen and (max-width: 992px) {}
+.Registro-animal{
+  border: solid 2px rgb(131, 86, 54);
+  border-radius: 20px 20px 60px 60px;
+  text-align: center;
+  font-weight: 400;
+  color: black;
+  height: 550px;
+  line-height: 40px;
+  
+}
+
+.navbar-dark .navbar-brand{
+
+  color: khaki
+}
+
+.btn.focus, .btn:focus{
+
+  box-shadow: 0 0 0 0.2rem rgba(119, 73, 12, 0.836)
+}
 
 .form-control:focus {
   border-color: rgba(119, 73, 12, 0.836);
@@ -112,8 +139,21 @@ a.nav-link {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+.form-control-filter {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: khaki;
+  background-color: rgba(119, 73, 12, 0.836);
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: .25rem;
@@ -140,7 +180,6 @@ h1 {
   border-radius: 40px;
   text-align: center;
   position: relative;
-  
   box-shadow: khaki
 }
 
@@ -154,11 +193,11 @@ h1 {
   box-shadow: khaki;
 }
 
-label {
+label{
   color: black
 }
 
-.contacto {
+.contacto{
   border-top: 1px solid rgba(119, 73, 12, 0.836);
 }
 
@@ -166,17 +205,24 @@ a.cardname{
 
   color: black
 }
+div.container.registro {
 
-.foto  {
-  width: auto;
-  height: auto;
-  border-radius: 20px;
- 
+  height: 550px;
+}
+.w-100{
+  height: 550px;
+  
+  border-radius: 20px 20px 60px 60px;
+  border: 20px;
+  -webkit-border-radius: 20px 20px 60px 60px;
+  -moz-border-radius: 20px 20px 60px 60px;
+  -ms-border-radius: 20px 20px 60px 60px;
+  -o-border-radius: 20px 20px 60px 60px;
 }
 
 .fichamascota{
 
-  height: 360px;
+  height: 550px;
 }
 .ficha{
   padding-top: 20px;
@@ -185,11 +231,14 @@ a.cardname{
 .card{
   border-radius: 20px;
 }
-.ficha2{
+.ficharegistro{
 
   text-align: center
 }
 
 ul{
   list-style:none;
+  margin-left: -30px
   }
+  
+  

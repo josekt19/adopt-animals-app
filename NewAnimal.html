@@ -24,23 +24,23 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Muli|Quicksand&display=swap" rel="stylesheet">
-  </body>
 
-  <title>KolitasUy!</title>
+
+  <title>Catalogo | KolitasUy!</title>
+
 </head>
+<!-- Fin head y metadata -->
+
 
 <header>
 
-  <!-- Barra Nav -->
-  <title>KolitasUy!</title>
+  <!-- BARRA NAV -->
 
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top barrappal">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand">
       <img src="Assets/KolitasVector.png" class="logokolitas" alt="KolitasLogo">
     </a>
-
-
-    </button>
+    <span class="navbar-brand mb-0 h1">KolitasUy!</span>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
       aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,22 +48,22 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link barra" href="#">Inicio</i>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-home" disabled></i> Inicio
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="List.html">Catalogo</a>
+          <a class="nav-link" href="List.html"><i class="fas fa-list"></i> Catalogo</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="animal.html">Ficha <i class="fas fa-paw"></i></a>
+          <a class="nav-link" href="animal.html"><i class="fas fa-paw"></i> Ficha</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="NewAnimal.html">Registro</a>
+          <a class="nav-link " href="NewAnimal.html"><i class="fas fa-plus-circle"></i> Registro</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">Blog</a>
+          <a class="nav-link" href=""> <i class="fas fa-blog"></i> Blog</a>
         </li>
       </ul>
       <div class="btn-group dropdown">
@@ -71,15 +71,19 @@
           data-display="static" aria-haspopup="true" aria-expanded="false">
           <i class="fas fa-user"></i>
         </button>
-
-
+</div>
+</div>
   </nav>
+
 </header>
-<!--Fin Barra Nav-->
+<!--FIN BARRA NAV-->
 
 <br>
 <br>
+<br>
+<!-- REGISTRO -->
 <h2>Registro de nuevo animal</h2>
+<br>
 <div class="container Registro">
 
   <br>
@@ -102,30 +106,30 @@
         <input type="text" class="form-control" id="inputAddress" placeholder="Ingrese direccion">
       </div>
       <div class="form-group col-md-6">
-        <label for="inputAddress2">Raza</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="Raza">
+        <label for="inputRaza">Raza</label>
+        <input type="text" class="form-control" id="Raza" placeholder="Raza">
       </div>
     </div>
     <div class="form-row">
       <div class="form-group col-md-6">
-        <label for="inputCity">Edad</label>
-        <input type="text" class="form-control" id="inputCity" placeholder="Edad">
+        <label for="inputEdad">Edad</label>
+        <input type="text" class="form-control" id="Edad" placeholder="Edad">
       </div>
       <div class="form-group col-md-4">
-        <label for="inputState">Sexo</label>
-        <select id="inputState" class="form-control" placeholder="ingrese color de pelo y ojos">
+        <label for="inputSexo">Sexo</label>
+        <select id="inputSexo" class="form-control" placeholder="Sexo">
           <option selected disabled>Seleccione Sexo</option>
           <option>Macho</option>
           <option>Hembra</option>
         </select>
       </div>
       <div class="form-group col-md-2">
-        <label for="inputZip">Color de Pelo y ojos</label>
-        <input type="text" class="form-control" id="inputZip">
+        <label for="inputColor">Color de Pelo y ojos</label>
+        <input type="text" class="form-control" id="inputColor">
       </div>
 
       <div class="form-group col-md-12">
-        <label for="inputZip">Descripcion</label>
+        <label for="inputDescripcion">Descripcion</label>
         <textarea class="form-control" aria-label="With textarea"></textarea>
       </div>
     </div>
@@ -135,7 +139,7 @@
       </div>
       <div class="custom-file">
         <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
-        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+        <label class="custom-file-label" for="inputGroupFile01">Cargar Imagen</label>
       </div>
     </div>
     <section class="contacto">
@@ -145,25 +149,25 @@
     <form>
       <div class="form-row">
         <div class="form-group col-md-4">
-          <label for="animaltype">Nombre y apellido</label>
-          <input type="email" class="form-control" id="animaltype" placeholder="Nombre de contacto">
+          <label for="contacto">Nombre y apellido</label>
+          <input type="text" class="form-control" id="ContactName" placeholder="Nombre de contacto">
         </div>
         <div class="form-group col-md-4">
-          <label for="name">Telefono de contacto</label>
-          <input type="tel" class="form-control" id="animalname" placeholder="ingrese Telefono"
+          <label for="telefo">Telefono de contacto</label>
+          <input type="tel" class="form-control" id="ContactTel" placeholder="ingrese Telefono"
             pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required>
-          <span class="note">Formato: 09x-123-456</span>
+          <span class="note">Formato: 09x123456</span>
         </div>
         <div class="form-group col-md-4">
-          <label for="name">Email</label>
-          <input type="Email" class="form-control" id="animalname" placeholder="Email">
+          <label for="Email">Email</label>
+          <input type="Email" class="form-control" id="ContactEmail" placeholder="Email">
         </div>
 
 
 
       </div>
       <br>
-      <button type="submit" class="btn btn-primary btn-lg btn-block btn-search">Registrar nueva adopcion</button>
+      <button type="submit" class="btn btn-lg btn-block btn-search">Registrar nueva adopcion</button>
     </form>
     <br>
 
@@ -176,14 +180,18 @@
 </div>
 </div>
 </div>
+<!-- FIN REGISTRO -->
+
+
+<!-- FOOTER -->
 <footer class="py-5 footerkolitas">
     <div class="container">
-      <p class="m-0 text-center nav-item">Copyright &copy; Derechos registrados, creador Jose Kulzi </p>
+      <p class="m-0 text-center nav-item">Copyright &copy; Derechos registrados, creador Jose Kulzi  <i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i> <i class="fab fa-twitter"></i></p>
     </div>
   </footer>
-  
-  
-  
-  </body>
-  
-  </html>
+<!-- FIN FOOTER -->
+
+
+</body>
+
+</html>
